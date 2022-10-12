@@ -1,0 +1,19 @@
+.animals>.container {
+display: grid;
+grid-template-columns:1fr;
+}
+.animals__item {
+    border:3px solid var(--link-color);
+    margin: 5px;
+}
+.animals__name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ 
+@media(min-width:960px) {
+    .animals>.container {
+        grid-template-columns:1fr 1fr 1fr;  
+    }
+   
+}

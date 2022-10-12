@@ -12,38 +12,51 @@
 
 <body>
     <header class="header">
-        <img src="" alt="" class="header__img">
-        <nav class="header__nav-bar">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Map</a></li>
-                <li><a href="#">Zoos</a></li>
-                <li><a href="#">Donate</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <span class="designed-by">Designed by ©</span>
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo"><img src="img/logo_footer.svg" alt="Logo"></a>
+                <!-- Для меню використовуємо список, обгорнутий тегом nav -->
+                <nav class="header__menu">
+                    <ul class="header__menu-items">
+                        <li class="header__menu-item"><a href="" class="header__menu-link">About Us</a></li>
+                        <li class="header__menu-item"><a href="" class="header__menu-link">Zoo</a></li>
+                        <li class="header__menu-item"><a href="" class="header__menu-link">Contacts Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
-    <section class="watch-video conatiner">
 
-        <div class="watch-video__bg-circle"></div>
-        <div class="watch-video__text"></div>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
+    <section class="video ">
+        <div class="container">
+            <div class="watch-video">
+                <div class="watch-video__bg-circle"></div>
+                <div class="watch-video__text">Watch your favorite animal online</div>
 
+            </div>
+            <div class="video-youtube"> <iframe 
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                </iframe></div>
+
+        </div>
     </section>
     <section class="history">
-        <img src="" alt="" class="history__img">
-        <h2 class="history__title">The Backstage of the Wilderness World.</h2>
-        <p class="history__intro">The site was founded on the basis of a volunteer movement to protect and care for
-            animals.</p>
-        <p class="histort__text">The main goal is to help the animals, as well as the nature reserves and zoos where they
-            are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los
-            Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and
-            reptiles.</p>
+        <div class="container">
+            <img src="img/bamboo-cap.png" alt="bamboo-cap" class="history__img">
+            <h2 class="history__title">The Backstage of the Wilderness World.</h2>
+            <p class="history__intro">The site was founded on the basis of a volunteer movement to protect and care for
+                animals.</p>
+            <p class="history__text">The main goal is to help the animals, as well as the nature reserves and zoos where
+                they
+                are kept. We are currently working on video projects targeting pandas in China, eagles on an island near
+                Los
+                Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals
+                and
+                reptiles.</p>
+        </div>
     </section>
     <section class="animals">
-        
+        <div class="container">
             <div class="animals__item">
                 <img src="img/pandas.jpg" alt="Pandas" class="animals__img">
                 <p class="animals__name">giant Pandas</p>
@@ -53,28 +66,29 @@
                 <img src="img/eagels.png" alt="Eagles" class="animals__img">
                 <p class="animals__name">Eagles</p>
                 <p class="animals__origin">Native to South America</p>
-            </div>   
-             
-             <div class="animals__item">
+            </div>
+
+            <div class="animals__item">
                 <img src="img/cheetahs.png" alt="Cheetahs" class="animals__img">
                 <p class="animals__name">cheetahs</p>
                 <p class="animals__origin">Native to Africa</p>
-            </div>    
+            </div>
             <div class="animals__item">
                 <img src="img/gorillas.png" alt="Gorillas" class="animals__img">
                 <p class="animals__name">Gorillas</p>
                 <p class="animals__origin">Native to Congo</p>
-            </div>  
-              <div class="animals__item">
+            </div>
+            <div class="animals__item">
                 <img src="img/aligators.png" alt="Alligators" class="animals__img">
                 <p class="animals__name">Alligators</p>
                 <p class="animals__origin">Native to Southeastern U. S.</p>
-            </div>    <div class="animals__item">
+            </div>
+            <div class="animals__item">
                 <img src="img/penguins.png" alt="Penguins" class="animals__img">
                 <p class="animals__name">Penguins</p>
                 <p class="animals__origin">Native</p>
-            </div> 
-       
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <img src="" alt="" class="footer__img">

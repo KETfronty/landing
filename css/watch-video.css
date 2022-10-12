@@ -1,0 +1,56 @@
+
+.video{
+    display: flex;
+    flex-direction: column;
+   
+ }.watch-video{
+    background-image: url(../img/panda-bg.png);
+    background-size: cover;
+   
+    background-position: 50% 50%;
+    min-height: 186px;
+    
+    
+}
+.watch-video__bg-circle{
+    background-color: var(--link-color);
+    border-radius: 50%;
+    z-index: 10;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+.watch-video__text{
+    position: absolute;
+    top: 110px;
+    left: 210px;
+    color: var(--text-bg-color);
+    z-index: 11;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+@media(min-width:960px) {
+    .video{
+        display: flex;
+        flex-direction: row;
+    }
+    .watch-video{
+        background-image: url(../img/panda-bg.png);
+        background-size: cover;
+       
+        background-position: 50% 50%;
+    }
+    .watch-video__bg-circle{
+        background-color: var(--link-color);
+        border-radius: 50%;
+        z-index: 10;
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        top: 200px;
+        left: 300px;
+    }
+}
