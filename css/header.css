@@ -1,6 +1,7 @@
 .header {
     background: var(--nav-bg-color);
     /* width: 450px; */
+    position: fixed;
 }
 .header__inner {
     display: flex;
