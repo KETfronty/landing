@@ -1,0 +1,23 @@
+
+.footer {
+    background-color: var(--text-color);
+}.footer-form__title {
+color: var(--text-bg-color);
+font-weight: bold;
+font-size: 25px;
+}
+input[type="email"] {
+border: 2px solid var(--link-color);
+color:var(--text-color);
+box-shadow: black;
+padding: 5px;
+border-radius: 5px;
+}
+input[type="submit"] {
+   border:2px solid var(--link-color);
+color:var(--text-bg-color);
+box-shadow: black;
+padding: 5px;
+border-radius: 5px;
+background-color: var(--link-color);
+}

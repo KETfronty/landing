@@ -18,9 +18,9 @@
                 <!-- Для меню використовуємо список, обгорнутий тегом nav -->
                 <nav class="header__menu">
                     <ul class="header__menu-items">
-                        <li class="header__menu-item"><a href="" class="header__menu-link">About Us</a></li>
-                        <li class="header__menu-item"><a href="" class="header__menu-link">Zoo</a></li>
-                        <li class="header__menu-item"><a href="" class="header__menu-link">Contacts Us</a></li>
+                        <li class="header__menu-item"><a href="#about-us" class="header__menu-link">About Us</a></li>
+                        <li class="header__menu-item"><a href="#zoo" class="header__menu-link">Zoo</a></li>
+                        <li class="header__menu-item"><a href="#contact-us" class="header__menu-link">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -29,18 +29,18 @@
 
     <section class="video ">
         <div class="container">
-            <div class="watch-video">
+            <!-- <div class="watch-video">
                 <div class="watch-video__bg-circle"></div>
                 <div class="watch-video__text">Watch your favorite animal online</div>
 
-            </div>
+            </div> -->
             <div class="video-youtube"> <iframe 
                     src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe></div>
 
         </div>
     </section>
-    <section class="history">
+    <section  id ="about-us"class="history">
         <div class="container">
             <img src="img/bamboo-cap.png" alt="bamboo-cap" class="history__img">
             <h2 class="history__title">The Backstage of the Wilderness World.</h2>
@@ -55,7 +55,7 @@
                 reptiles.</p>
         </div>
     </section>
-    <section class="animals">
+    <section id = "zoo"class="animals">
         <div class="container">
             <div class="animals__item">
                 <img src="img/pandas.jpg" alt="Pandas" class="animals__img">
@@ -90,7 +90,7 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    <footer id="contact-us" class="footer">
         <img src="" alt="" class="footer__img">
         <div class="footer__socials">
             <ul>
@@ -100,9 +100,9 @@
             </ul>
         </div>
         <div class="footer-form">
-            <h2 class="footer-form__title"></h2>
-            <form action="">
-                <input type="email" name="" id="">
+            <h2 class="footer-form__title">Subscribe to our news</h2>
+            <form  class=" form__item"action="">
+                <input type="email" name="" id="" placeholder="Enter yout email">
                 <input type="submit" value="Submit">
             </form>
         </div>
